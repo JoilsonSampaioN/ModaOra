@@ -1,0 +1,99 @@
+body {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: #162028;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #425564;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.nav-buttons ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-buttons ul li {
+  margin-right: 25px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.logo {
+  color: white;
+  font-size: 40px;
+  margin-left: 150px;
+  font-weight: 100;
+  font-family: "Viaoda Libre", cursive;
+}
+#background-section {
+  width: 100%;
+}
+#segunda-section {
+  text-align: center;
+}
+#titulo-segunda-section {
+  font-family: "Viaoda Libre", cursive;
+  font-size: 46px;
+  margin-top: 30px;
+}
+#texto-segunda-section {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 30px;
+  color: #555;
+}
+#container-itens ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.title-box {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #555;
+}
+.text-box {
+  font-family: "Roboto", sans-serif;
+  color: #555;
+}
+#terceira-section {
+  background-image: url(../imagens/bg_detalhe.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  padding: 150px;
+}
+#title-terceira-section{
+    color: white;
+    font-family: "Viaoda Libre", cursive;
+    font-size: 50px;
+}
+#text-terceira-section{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    width: 700px;
+}
+footer {
+  background-color: #0b171f;
+  margin-top: -20px;
+  width: 100%;
+}
+footer p {
+  color: #6f8597;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 2px;
+}
